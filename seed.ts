@@ -13,8 +13,9 @@ export function seed() {
       os TEXT,
       osVersion TEXT,
       fullUa TEXT,
-      host TEXT,
-      url TEXT
+      url TEXT,
+      referrer TEXT,
+      visitorId TEXT
     )
   `);
   } catch (error) {
